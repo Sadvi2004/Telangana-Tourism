@@ -1,0 +1,37 @@
+# Ignore venu scripts
+backend/venu/
+
+# Ignore Node.js dependencies
+backend/node_modules/
+backend/npm-debug.log
+backend/yarn.lock
+backend/pnpm-lock.yaml
+
+# Ignore build and output files
+backend/dist/
+backend/build/
+backend/.out/
+backend/.next/
+backend/.cache/
+
+# Ignore environment variables and secrets
+backend/.env
+backend/.env.local
+backend/.env.development
+backend/.env.production
+backend/.env.test
+
+# Ignore logs and temp files
+backend/logs/
+backend/*.log
+backend/*.tmp
+backend/*.swp
+backend/*.swo
+backend/*.swn
+
+# Ignore system files
+backend/.DS_Store
+backend/Thumbs.db
+backend/.idea/
+backend/.vscode/
+backend/*.bak
