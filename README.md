@@ -1,3 +1,3 @@
 # sample output
 
-![Image](https://github.com/user-attachments/assets/2b9ae339-495b-40b9-9125-8ae6b47b7a31)
+![Image](https://github.com/user-attachments/assets/65645b46-75ef-47ad-8a62-5ac6971ed212)
