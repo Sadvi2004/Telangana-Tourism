@@ -1,0 +1,71 @@
+.chart-container {
+    width: 80%;
+    max-width: 800px;
+    height: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #a9a7a7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.chart-title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-weight: bold;
+    animation: fadeIn 0.8s ease-out;
+    background: #a9a7a7;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.chart-wrapper {
+    flex: 1;
+    position: relative;
+}
+
+.chart-text {
+    color: #ffffff !important;
+}
+
+.chart-container canvas {
+    color: #ffffff !important;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+canvas {
+    animation: fadeInChart 1s ease-out;
+}
+
+@keyframes fadeInChart {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
