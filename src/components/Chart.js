@@ -34,8 +34,8 @@ function Chart({ tourismData, chartType }) {
       {
         label: "Visitors",
         data: visitors,
-        backgroundColor: "rgba(232, 149, 15, 0.6)",
-        borderColor: "rgb(232,149,15,0.6)",
+        backgroundColor: "rgba(13, 163, 228, 0.6)",
+        borderColor: "rgba(221, 214, 202, 0.6)",
         borderWidth: 2,
       },
     ],
